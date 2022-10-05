@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Component } from "react"
 import { connect } from "react-redux"
 
 import "./index.scss"
@@ -17,7 +17,7 @@ import { landing2Html, landing2Style } from "./templates/landing2"
 // import SlideDrawer from "./slideDrawer/slideDrawer"
 // import Backdrop from "./slideDrawer/backdrop"
 
-class DesignerStudio extends React.Component {
+class DesignerStudio extends Component {
     constructor(props) {
         super(props)
         this.state = {
